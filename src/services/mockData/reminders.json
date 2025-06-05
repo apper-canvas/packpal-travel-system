@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "text": "Check passport expiration date (must be valid for 6+ months)",
+    "category": "documents",
+    "priority": "critical"
+  },
+  {
+    "id": "2",
+    "text": "Notify bank of travel dates to avoid card blocks",
+    "category": "money",
+    "priority": "critical"
+  },
+  {
+    "id": "3",
+    "text": "Charge all electronic devices before departure",
+    "category": "electronics",
+    "priority": "important"
+  },
+  {
+    "id": "4",
+    "text": "Pack medications in carry-on bag",
+    "category": "health",
+    "priority": "critical"
+  },
+  {
+    "id": "5",
+    "text": "Download offline maps for destination",
+    "category": "electronics",
+    "priority": "important"
+  },
+  {
+    "id": "6",
+    "text": "Print boarding passes and hotel confirmations",
+    "category": "documents",
+    "priority": "important"
+  },
+  {
+    "id": "7",
+    "text": "Check weather forecast for last-minute clothing adjustments",
+    "category": "documents",
+    "priority": "optional"
+  },
+  {
+    "id": "8",
+    "text": "Ensure travel insurance documents are accessible",
+    "category": "documents",
+    "priority": "important"
+  },
+  {
+    "id": "9",
+    "text": "Pack power bank and cables in carry-on",
+    "category": "electronics",
+    "priority": "important"
+  },
+  {
+    "id": "10",
+    "text": "Lock all doors and windows at home",
+    "category": "documents",
+    "priority": "critical"
+  },
+  {
+    "id": "11",
+    "text": "Set out-of-office email reply",
+    "category": "documents",
+    "priority": "optional"
+  },
+  {
+    "id": "12",
+    "text": "Pack hand sanitizer and face masks",
+    "category": "health",
+    "priority": "important"
+  },
+  {
+    "id": "13",
+    "text": "Have local emergency contacts saved in phone",
+    "category": "documents",
+    "priority": "important"
+  },
+  {
+    "id": "14",
+    "text": "Exchange currency or ensure card works internationally",
+    "category": "money",
+    "priority": "critical"
+  },
+  {
+    "id": "15",
+    "text": "Check airline baggage restrictions one final time",
+    "category": "documents",
+    "priority": "important"
+  }
+]

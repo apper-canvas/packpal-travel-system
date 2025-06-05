@@ -1,0 +1,245 @@
+[
+  {
+    "id": "1",
+    "tripId": "1",
+    "items": [
+      {
+        "id": "item_1",
+        "name": "Passport",
+        "category": "documents",
+        "quantity": 1,
+        "isPacked": true,
+        "isEssential": true,
+        "notes": "Check expiration date"
+      },
+      {
+        "id": "item_2",
+        "name": "Phone Charger",
+        "category": "electronics",
+        "quantity": 1,
+        "isPacked": true,
+        "isEssential": true,
+        "notes": ""
+      },
+      {
+        "id": "item_3",
+        "name": "Camera",
+        "category": "electronics",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": false,
+        "notes": "With extra batteries"
+      },
+      {
+        "id": "item_4",
+        "name": "Casual Shirts",
+        "category": "clothing",
+        "quantity": 5,
+        "isPacked": false,
+        "isEssential": false,
+        "notes": ""
+      },
+      {
+        "id": "item_5",
+        "name": "Jeans",
+        "category": "clothing",
+        "quantity": 2,
+        "isPacked": true,
+        "isEssential": false,
+        "notes": ""
+      },
+      {
+        "id": "item_6",
+        "name": "Toothbrush",
+        "category": "toiletries",
+        "quantity": 1,
+        "isPacked": true,
+        "isEssential": true,
+        "notes": ""
+      },
+      {
+        "id": "item_7",
+        "name": "Toothpaste",
+        "category": "toiletries",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": "Travel size"
+      },
+      {
+        "id": "item_8",
+        "name": "Shampoo",
+        "category": "toiletries",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": false,
+        "notes": "Travel size"
+      },
+      {
+        "id": "item_9",
+        "name": "Sneakers",
+        "category": "clothing",
+        "quantity": 1,
+        "isPacked": true,
+        "isEssential": false,
+        "notes": "Comfortable walking shoes"
+      },
+      {
+        "id": "item_10",
+        "name": "Sunglasses",
+        "category": "other",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": false,
+        "notes": ""
+      },
+      {
+        "id": "item_11",
+        "name": "Travel Adapter",
+        "category": "electronics",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": "European plug"
+      },
+      {
+        "id": "item_12",
+        "name": "Underwear",
+        "category": "clothing",
+        "quantity": 7,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": ""
+      },
+      {
+        "id": "item_13",
+        "name": "Socks",
+        "category": "clothing",
+        "quantity": 7,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": ""
+      },
+      {
+        "id": "item_14",
+        "name": "Light Jacket",
+        "category": "clothing",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": false,
+        "notes": "For cool evenings"
+      },
+      {
+        "id": "item_15",
+        "name": "Medications",
+        "category": "other",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": "Regular prescriptions"
+      }
+    ],
+    "isTemplate": false,
+    "templateName": "",
+    "lastModified": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "2",
+    "tripId": "2",
+    "items": [
+      {
+        "id": "item_16",
+        "name": "Passport",
+        "category": "documents",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": ""
+      },
+      {
+        "id": "item_17",
+        "name": "Visa Documents",
+        "category": "documents",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": "Tourist visa"
+      },
+      {
+        "id": "item_18",
+        "name": "Hiking Boots",
+        "category": "clothing",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": "Waterproof"
+      },
+      {
+        "id": "item_19",
+        "name": "Rain Jacket",
+        "category": "clothing",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": ""
+      },
+      {
+        "id": "item_20",
+        "name": "Portable Battery",
+        "category": "electronics",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": false,
+        "notes": "20000mAh"
+      },
+      {
+        "id": "item_21",
+        "name": "First Aid Kit",
+        "category": "other",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": "Include band-aids and antiseptic"
+      },
+      {
+        "id": "item_22",
+        "name": "Water Bottle",
+        "category": "other",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": "Reusable, 1L capacity"
+      },
+      {
+        "id": "item_23",
+        "name": "Quick-dry Shirts",
+        "category": "clothing",
+        "quantity": 4,
+        "isPacked": false,
+        "isEssential": false,
+        "notes": ""
+      },
+      {
+        "id": "item_24",
+        "name": "Hiking Pants",
+        "category": "clothing",
+        "quantity": 2,
+        "isPacked": false,
+        "isEssential": false,
+        "notes": ""
+      },
+      {
+        "id": "item_25",
+        "name": "Sunscreen",
+        "category": "toiletries",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": true,
+        "notes": "SPF 50+"
+      }
+    ],
+    "isTemplate": false,
+    "templateName": "",
+    "lastModified": "2024-01-20T14:15:00Z"
+  }
+]

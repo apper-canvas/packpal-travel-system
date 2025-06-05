@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "destination": "Paris, France",
+    "startDate": "2024-03-15",
+    "endDate": "2024-03-22",
+    "tripType": "leisure",
+    "weather": {
+      "temperature": 18,
+      "conditions": "partly cloudy"
+    },
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "2",
+    "destination": "Tokyo, Japan",
+    "startDate": "2024-04-10",
+    "endDate": "2024-04-18",
+    "tripType": "adventure",
+    "weather": {
+      "temperature": 22,
+      "conditions": "sunny"
+    },
+    "createdAt": "2024-01-20T14:15:00Z"
+  },
+  {
+    "id": "3",
+    "destination": "New York, USA",
+    "startDate": "2024-05-05",
+    "endDate": "2024-05-08",
+    "tripType": "business",
+    "weather": {
+      "temperature": 25,
+      "conditions": "sunny"
+    },
+    "createdAt": "2024-02-01T09:45:00Z"
+  },
+  {
+    "id": "4",
+    "destination": "Bali, Indonesia",
+    "startDate": "2024-06-12",
+    "endDate": "2024-06-25",
+    "tripType": "leisure",
+    "weather": {
+      "temperature": 30,
+      "conditions": "tropical"
+    },
+    "createdAt": "2024-02-10T16:20:00Z"
+  },
+  {
+    "id": "5",
+    "destination": "London, UK",
+    "startDate": "2024-07-03",
+    "endDate": "2024-07-10",
+    "tripType": "family",
+    "weather": {
+      "temperature": 20,
+      "conditions": "rainy"
+    },
+    "createdAt": "2024-02-15T11:00:00Z"
+  }
+]
