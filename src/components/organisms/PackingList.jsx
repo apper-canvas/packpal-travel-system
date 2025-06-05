@@ -18,14 +18,14 @@ const PackingList = ({ itemsByCategory, categories, onTogglePacked, onDeleteItem
               colorClass={category.color}
             />
 
-            <div className="p-4 space-y-2">
+<div className="p-4 space-y-2">
               <AnimatePresence>
                 {items.map((item) => (
                   <PackingItem
                     key={item.id}
                     item={item}
                     onTogglePacked={onTogglePacked}
-                    onDeleteItem={onDeleteItem}
+                    onDelete={onDeleteItem}
                   />
                 ))}
               </AnimatePresence>

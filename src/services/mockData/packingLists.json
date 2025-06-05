@@ -4,143 +4,123 @@
     "tripId": "1",
     "items": [
       {
-        "id": "item_1",
-        "name": "Passport",
-        "category": "documents",
-        "quantity": 1,
-        "isPacked": true,
-        "isEssential": true,
-        "notes": "Check expiration date"
-      },
-      {
-        "id": "item_2",
-        "name": "Phone Charger",
-        "category": "electronics",
-        "quantity": 1,
-        "isPacked": true,
-        "isEssential": true,
-        "notes": ""
-      },
-      {
-        "id": "item_3",
-        "name": "Camera",
-        "category": "electronics",
-        "quantity": 1,
-        "isPacked": false,
-        "isEssential": false,
-        "notes": "With extra batteries"
-      },
-      {
-        "id": "item_4",
-        "name": "Casual Shirts",
+        "id": "1",
+        "name": "Cotton T-shirts",
         "category": "clothing",
         "quantity": 5,
-        "isPacked": false,
+        "isPacked": true,
         "isEssential": false,
-        "notes": ""
+        "weight": 800
       },
       {
-        "id": "item_5",
+        "id": "2",
         "name": "Jeans",
         "category": "clothing",
         "quantity": 2,
-        "isPacked": true,
-        "isEssential": false,
-        "notes": ""
-      },
-      {
-        "id": "item_6",
-        "name": "Toothbrush",
-        "category": "toiletries",
-        "quantity": 1,
-        "isPacked": true,
-        "isEssential": true,
-        "notes": ""
-      },
-      {
-        "id": "item_7",
-        "name": "Toothpaste",
-        "category": "toiletries",
-        "quantity": 1,
-        "isPacked": false,
-        "isEssential": true,
-        "notes": "Travel size"
-      },
-      {
-        "id": "item_8",
-        "name": "Shampoo",
-        "category": "toiletries",
-        "quantity": 1,
         "isPacked": false,
         "isEssential": false,
-        "notes": "Travel size"
+        "weight": 1200
       },
       {
-        "id": "item_9",
-        "name": "Sneakers",
-        "category": "clothing",
-        "quantity": 1,
-        "isPacked": true,
-        "isEssential": false,
-        "notes": "Comfortable walking shoes"
-      },
-      {
-        "id": "item_10",
-        "name": "Sunglasses",
-        "category": "other",
-        "quantity": 1,
-        "isPacked": false,
-        "isEssential": false,
-        "notes": ""
-      },
-      {
-        "id": "item_11",
-        "name": "Travel Adapter",
-        "category": "electronics",
-        "quantity": 1,
-        "isPacked": false,
-        "isEssential": true,
-        "notes": "European plug"
-      },
-      {
-        "id": "item_12",
+        "id": "3",
         "name": "Underwear",
         "category": "clothing",
         "quantity": 7,
-        "isPacked": false,
+        "isPacked": true,
         "isEssential": true,
-        "notes": ""
+        "weight": 350
       },
       {
-        "id": "item_13",
+        "id": "4",
         "name": "Socks",
         "category": "clothing",
         "quantity": 7,
         "isPacked": false,
         "isEssential": true,
-        "notes": ""
+        "weight": 280
       },
       {
-        "id": "item_14",
-        "name": "Light Jacket",
+        "id": "5",
+        "name": "Sweater",
         "category": "clothing",
         "quantity": 1,
         "isPacked": false,
         "isEssential": false,
-        "notes": "For cool evenings"
+        "weight": 600
       },
       {
-        "id": "item_15",
-        "name": "Medications",
-        "category": "other",
+        "id": "6",
+        "name": "Toothbrush",
+        "category": "toiletries",
+        "quantity": 1,
+        "isPacked": true,
+        "isEssential": true,
+        "weight": 25
+      },
+      {
+        "id": "7",
+        "name": "Toothpaste",
+        "category": "toiletries",
+        "quantity": 1,
+        "isPacked": true,
+        "isEssential": true,
+        "weight": 150
+      },
+      {
+        "id": "8",
+        "name": "Shampoo",
+        "category": "toiletries",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": false,
+        "weight": 250
+      },
+      {
+        "id": "9",
+        "name": "Phone Charger",
+        "category": "electronics",
+        "quantity": 1,
+        "isPacked": true,
+        "isEssential": true,
+        "weight": 180
+      },
+      {
+        "id": "10",
+        "name": "Camera",
+        "category": "electronics",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": false,
+        "weight": 650
+      },
+      {
+        "id": "11",
+        "name": "Passport",
+        "category": "documents",
+        "quantity": 1,
+        "isPacked": true,
+        "isEssential": true,
+        "weight": 45
+      },
+      {
+        "id": "12",
+        "name": "Travel Insurance",
+        "category": "documents",
         "quantity": 1,
         "isPacked": false,
         "isEssential": true,
-        "notes": "Regular prescriptions"
+        "weight": 10
+      },
+      {
+        "id": "13",
+        "name": "Sunglasses",
+        "category": "other",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": false,
+        "weight": 120
       }
     ],
-    "isTemplate": false,
-    "templateName": "",
     "lastModified": "2024-01-15T10:30:00Z"
   },
   {
@@ -148,57 +128,90 @@
     "tripId": "2",
     "items": [
       {
-        "id": "item_16",
-        "name": "Passport",
-        "category": "documents",
-        "quantity": 1,
-        "isPacked": false,
-        "isEssential": true,
-        "notes": ""
-      },
-      {
-        "id": "item_17",
-        "name": "Visa Documents",
-        "category": "documents",
-        "quantity": 1,
-        "isPacked": false,
-        "isEssential": true,
-        "notes": "Tourist visa"
-      },
-      {
-        "id": "item_18",
-        "name": "Hiking Boots",
+        "id": "14",
+        "name": "Business Shirts",
         "category": "clothing",
-        "quantity": 1,
+        "quantity": 3,
         "isPacked": false,
         "isEssential": true,
-        "notes": "Waterproof"
+        "weight": 450
       },
       {
-        "id": "item_19",
-        "name": "Rain Jacket",
+        "id": "15",
+        "name": "Formal Pants",
         "category": "clothing",
-        "quantity": 1,
+        "quantity": 2,
         "isPacked": false,
         "isEssential": true,
-        "notes": ""
+        "weight": 800
       },
       {
-        "id": "item_20",
-        "name": "Portable Battery",
+        "id": "16",
+        "name": "Laptop",
         "category": "electronics",
+        "quantity": 1,
+        "isPacked": true,
+        "isEssential": true,
+        "weight": 2200
+      },
+      {
+        "id": "17",
+        "name": "Business Cards",
+        "category": "documents",
         "quantity": 1,
         "isPacked": false,
         "isEssential": false,
-        "notes": "20000mAh"
+        "weight": 50
+      }
+    ],
+    "lastModified": "2024-01-10T15:45:00Z"
+  },
+  {
+    "id": "3",
+    "tripId": "3",
+    "items": [
+      {
+        "id": "18",
+        "name": "Hiking Boots",
+        "category": "clothing",
+        "quantity": 1,
+        "isPacked": true,
+        "isEssential": true,
+        "weight": 1400
       },
       {
-        "id": "item_21",
+        "id": "19",
         "name": "First Aid Kit",
         "category": "other",
         "quantity": 1,
         "isPacked": false,
         "isEssential": true,
+        "weight": 300
+      },
+      {
+        "id": "20",
+        "name": "Water Bottle",
+        "category": "other",
+        "quantity": 1,
+        "isPacked": true,
+        "isEssential": true,
+        "weight": 180
+      }
+],
+    "lastModified": "1/8/2024 9:20:00 AMZ"
+  },
+  {
+    "id": "4",
+    "tripId": "4",
+    "items": [
+      {
+        "id": "21",
+        "name": "First Aid Kit",
+        "category": "other",
+        "quantity": 1,
+        "isPacked": false,
+        "isEssential": true,
+        "weight": 300,
         "notes": "Include band-aids and antiseptic"
       },
       {
@@ -208,6 +221,7 @@
         "quantity": 1,
         "isPacked": false,
         "isEssential": true,
+        "weight": 180,
         "notes": "Reusable, 1L capacity"
       },
       {
@@ -217,6 +231,7 @@
         "quantity": 4,
         "isPacked": false,
         "isEssential": false,
+        "weight": 600,
         "notes": ""
       },
       {
@@ -226,6 +241,7 @@
         "quantity": 2,
         "isPacked": false,
         "isEssential": false,
+        "weight": 800,
         "notes": ""
       },
       {
@@ -235,6 +251,7 @@
         "quantity": 1,
         "isPacked": false,
         "isEssential": true,
+        "weight": 100,
         "notes": "SPF 50+"
       }
     ],

@@ -48,12 +48,48 @@ export const packingListService = {
     return { ...updatedList }
   },
 
-  async delete(id) {
+async delete(id) {
     await delay(250)
     const index = packingLists.findIndex(l => l.id === id)
     if (index === -1) throw new Error('Packing list not found')
     
     packingLists = packingLists.filter(l => l.id !== id)
     return { success: true }
+  },
+
+  async updateItemWeight(listId, itemId, weight) {
+    await delay(200)
+    const listIndex = packingLists.findIndex(l => l.id === listId)
+    if (listIndex === -1) throw new Error('Packing list not found')
+    
+    const itemIndex = packingLists[listIndex].items.findIndex(item => item.id === itemId)
+    if (itemIndex === -1) throw new Error('Item not found')
+    
+    packingLists[listIndex].items[itemIndex].weight = weight
+    packingLists[listIndex].lastModified = new Date().toISOString()
+    
+    return { ...packingLists[listIndex] }
+  },
+
+  async calculateTotalWeight(listId) {
+    await delay(100)
+    const list = packingLists.find(l => l.id === listId)
+    if (!list) throw new Error('Packing list not found')
+    
+    const totalWeight = list.items.reduce((total, item) => {
+      return total + (item.weight || 0) * item.quantity
+    }, 0)
+    
+    const packedWeight = list.items
+      .filter(item => item.isPacked)
+      .reduce((total, item) => {
+        return total + (item.weight || 0) * item.quantity
+      }, 0)
+    
+    return {
+      totalWeight,
+      packedWeight,
+      unpackedWeight: totalWeight - packedWeight
+    }
   }
 }

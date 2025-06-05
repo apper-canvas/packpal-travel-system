@@ -4,8 +4,9 @@ import Checkbox from '../atoms/Checkbox';
 import Icon from '../atoms/Icon';
 import Text from '../atoms/Text';
 import Button from '../atoms/Button';
+import NumberInput from '../atoms/NumberInput';
 
-const PackingItem = ({ item, onTogglePacked, onDelete }) => {
+const PackingItem = ({ item, onTogglePacked, onDelete, onWeightChange }) => {
   return (
     <motion.div
       initial={{ opacity: 0, x: 20 }}
@@ -33,11 +34,25 @@ const PackingItem = ({ item, onTogglePacked, onDelete }) => {
             <Text as="span" className="bg-accent/20 text-amber-700 text-xs px-2 py-1 rounded-full">
               Essential
             </Text>
-          )}
+)}
         </div>
-        {item.quantity > 1 && (
-          <Text as="span" className="text-sm text-surface-500">Qty: {item.quantity}</Text>
-        )}
+        <div className="flex items-center space-x-4 mt-1">
+          {item.quantity > 1 && (
+            <Text as="span" className="text-sm text-surface-500">Qty: {item.quantity}</Text>
+          )}
+<div className="flex items-center space-x-2">
+            <Text as="span" className="text-xs text-surface-500">Weight:</Text>
+            <NumberInput
+              value={item.weight || 0}
+              onChange={(value) => onWeightChange && onWeightChange(item.id, value)}
+              placeholder="0"
+              className="w-16 text-xs"
+              min={0}
+              step={0.1}
+            />
+            <Text as="span" className="text-xs text-surface-500">g</Text>
+          </div>
+        </div>
       </div>
 
       <Button

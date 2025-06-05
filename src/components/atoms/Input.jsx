@@ -12,6 +12,33 @@ const Input = ({ type = 'text', value, onChange, placeholder, className = '', on
         ${className}
       `}
       onKeyPress={onKeyPress}
+{...props}
+    />
+  );
+};
+
+export const NumberInput = ({ value, onChange, placeholder, className = '', min = 0, step = 0.1, ...props }) => {
+  const handleChange = (e) => {
+    const numValue = parseFloat(e.target.value);
+    if (!isNaN(numValue) && numValue >= min) {
+      onChange(numValue);
+    } else if (e.target.value === '') {
+      onChange(0);
+    }
+  };
+
+  return (
+    <input
+      type="number"
+      value={value || ''}
+      onChange={handleChange}
+      placeholder={placeholder}
+      min={min}
+      step={step}
+      className={`
+        px-2 py-1 text-sm border border-surface-300 rounded-lg focus:ring-1 focus:ring-primary focus:border-transparent transition-all
+        ${className}
+      `}
       {...props}
     />
   );
