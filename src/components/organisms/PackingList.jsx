@@ -3,7 +3,7 @@ import { AnimatePresence } from 'framer-motion';
 import PackingItem from '../molecules/PackingItem';
 import CategoryHeader from '../molecules/CategoryHeader';
 
-const PackingList = ({ itemsByCategory, categories, onTogglePacked, onDeleteItem }) => {
+const PackingList = ({ itemsByCategory, categories, onTogglePacked, onDeleteItem, onWeightChange }) => {
   return (
     <div className="space-y-4">
       {Object.entries(itemsByCategory).map(([categoryKey, items]) => {
@@ -26,6 +26,7 @@ const PackingList = ({ itemsByCategory, categories, onTogglePacked, onDeleteItem
                     item={item}
                     onTogglePacked={onTogglePacked}
                     onDelete={onDeleteItem}
+                    onWeightChange={onWeightChange}
                   />
                 ))}
               </AnimatePresence>

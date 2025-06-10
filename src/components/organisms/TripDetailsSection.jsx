@@ -2,7 +2,7 @@ import React from 'react';
 import TripInfoCard from '../molecules/TripInfoCard';
 import Button from '../atoms/Button';
 
-const TripDetailsSection = ({ currentTrip, onPlanTripClick, onLastMinuteClick }) => {
+const TripDetailsSection = ({ currentTrip, onPlanTripClick, onLastMinuteClick, onSmartSuggestionsClick }) => {
   return (
     <div className="bg-white rounded-2xl shadow-soft p-6 border border-surface-200">
       <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
@@ -11,6 +11,16 @@ const TripDetailsSection = ({ currentTrip, onPlanTripClick, onLastMinuteClick })
         </div>
 
         <div className="flex flex-col sm:flex-row gap-3">
+          {currentTrip && (
+            <Button
+              onClick={onSmartSuggestionsClick}
+              className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-3 rounded-xl font-medium hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+              icon="Lightbulb"
+            >
+              Smart Suggestions
+            </Button>
+          )}
+          
           <Button
             onClick={onPlanTripClick}
             className="bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-xl font-medium hover:shadow-lg transform hover:scale-105 transition-all duration-200"

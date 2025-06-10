@@ -17,10 +17,10 @@ const Input = ({ type = 'text', value, onChange, placeholder, className = '', on
   );
 };
 
-export const NumberInput = ({ value, onChange, placeholder, className = '', min = 0, step = 0.1, ...props }) => {
+export const NumberInput = ({ value, onChange, placeholder, className = '', min = 0, step = 0.1, max, ...props }) => {
   const handleChange = (e) => {
     const numValue = parseFloat(e.target.value);
-    if (!isNaN(numValue) && numValue >= min) {
+    if (!isNaN(numValue) && numValue >= min && (max === undefined || numValue <= max)) {
       onChange(numValue);
     } else if (e.target.value === '') {
       onChange(0);
@@ -34,6 +34,7 @@ export const NumberInput = ({ value, onChange, placeholder, className = '', min 
       onChange={handleChange}
       placeholder={placeholder}
       min={min}
+      max={max}
       step={step}
       className={`
         px-2 py-1 text-sm border border-surface-300 rounded-lg focus:ring-1 focus:ring-primary focus:border-transparent transition-all
@@ -43,5 +44,4 @@ export const NumberInput = ({ value, onChange, placeholder, className = '', min 
     />
   );
 };
-
 export default Input;
